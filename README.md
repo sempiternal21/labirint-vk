@@ -1,7 +1,7 @@
 # labirint-vk
 
 <h3>
-Видеодемонстрация работы https://vk.com/video/@club208713924?z=video-208713924_456239056%2Fln-Qz2GLQX5ajHVm9swyU%2Fpl_-208713924_-2
+Видеодемонстрация работы https://vk.com/video/@keveleer?z=video436211452_456240155%2Fpl_436211452_-2
 
 </h3>
 
