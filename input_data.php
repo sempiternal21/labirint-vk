@@ -30,7 +30,7 @@
         exit();
     }
 
-    echo '<form method="post" action="handler.php">';
+    echo '<form method="post" action="resolve_labyrinth.php">';
     echo '<table  ><tbody>';
 
     $q = 0;

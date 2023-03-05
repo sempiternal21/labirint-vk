@@ -18,7 +18,7 @@
         Введите размеры лабиринта:
     </div><br>
 
-    <form action="action.php" method="post">
+    <form action="input_data.php" method="post">
         <p>Длина: <input type="text" name="width" /></p>
         <p>Высота: <input type="text" name="height" /></p>
         <p><input type="submit" value="Дальше"/></p>
