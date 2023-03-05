@@ -92,9 +92,15 @@
         $s = 0;
     }
     $incr_path = $path[$min_ind];
-    for($i = 0; $i < sizeof($incr_path); $i++){
-        $incr_path[$i]++;
+    try {
+        for($i = 0; $i < sizeof($incr_path); $i++){
+            $incr_path[$i]++;
+        }
+    }catch (TypeError $ex){
+        echo 'Лабиринт пройти невозможно! Исправьте входные данные.';
+        exit();
     }
+
     try {
         echo 'Самый короткий путь проходит по клеткам с номерами: ' . implode(', ', $incr_path) . '<br>';
         echo 'Расстояние=' . $min_s;
